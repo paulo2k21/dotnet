@@ -1,0 +1,15 @@
+/home/paulo-pereira-marques/MeuProjeto/bin/Debug/net7.0/MeuProjeto
+/home/paulo-pereira-marques/MeuProjeto/bin/Debug/net7.0/MeuProjeto.deps.json
+/home/paulo-pereira-marques/MeuProjeto/bin/Debug/net7.0/MeuProjeto.runtimeconfig.json
+/home/paulo-pereira-marques/MeuProjeto/bin/Debug/net7.0/MeuProjeto.dll
+/home/paulo-pereira-marques/MeuProjeto/bin/Debug/net7.0/MeuProjeto.pdb
+/home/paulo-pereira-marques/MeuProjeto/obj/Debug/net7.0/MeuProjeto.csproj.AssemblyReference.cache
+/home/paulo-pereira-marques/MeuProjeto/obj/Debug/net7.0/MeuProjeto.GeneratedMSBuildEditorConfig.editorconfig
+/home/paulo-pereira-marques/MeuProjeto/obj/Debug/net7.0/MeuProjeto.AssemblyInfoInputs.cache
+/home/paulo-pereira-marques/MeuProjeto/obj/Debug/net7.0/MeuProjeto.AssemblyInfo.cs
+/home/paulo-pereira-marques/MeuProjeto/obj/Debug/net7.0/MeuProjeto.csproj.CoreCompileInputs.cache
+/home/paulo-pereira-marques/MeuProjeto/obj/Debug/net7.0/MeuProjeto.dll
+/home/paulo-pereira-marques/MeuProjeto/obj/Debug/net7.0/refint/MeuProjeto.dll
+/home/paulo-pereira-marques/MeuProjeto/obj/Debug/net7.0/MeuProjeto.pdb
+/home/paulo-pereira-marques/MeuProjeto/obj/Debug/net7.0/MeuProjeto.genruntimeconfig.cache
+/home/paulo-pereira-marques/MeuProjeto/obj/Debug/net7.0/ref/MeuProjeto.dll
