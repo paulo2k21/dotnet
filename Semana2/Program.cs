@@ -123,7 +123,11 @@ DateTime now = DateTime.Now;
 
 Console.WriteLine(now);
 
+DateTime dataFormatada = new DateTime(2012,12,07);
 
-
+Console.WriteLine(dataFormatada);
+Console.WriteLine(dataFormatada.DayOfWeek);
+Console.WriteLine(dataFormatada.Minute);
+Console.WriteLine(dataFormatada.Kind);
 
 #endregion
