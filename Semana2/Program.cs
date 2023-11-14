@@ -1,6 +1,8 @@
 ﻿
 #region Exemplos aulas
 // aqui temos um array, assunto da próxima aula
+using System.Data;
+
 string[] colecao= { "Item1", "Item2", "Item3", "Item4" };
 foreach (string item in colecao)
 {
@@ -109,6 +111,19 @@ foreach(string n in nome){
 Console.WriteLine(n);
 
 }
+
+
+#endregion
+
+Console.WriteLine("\n******* Estudo de DateTime*********"); 
+
+#region DateTime
+
+DateTime now = DateTime.Now;
+
+Console.WriteLine(now);
+
+
 
 
 #endregion
