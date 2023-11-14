@@ -62,19 +62,53 @@ Console.WriteLine("\n*******Atividade 3*********");
 
 
 
-Console.WriteLine("\n*******Exercicio parte II da aula*********"); 
+Console.WriteLine("\n******* Execício parte II da aula*********"); 
 #region 
 
 
 
 Console.WriteLine("\nDigite seu nome"); 
-String name = Console.ReadLine();
 
+//String name = Console.ReadLine();
 
+Console.WriteLine(); 
 
 #endregion
 
 
+Console.WriteLine("\n******* Estudo de listas *********"); 
+
+#region Lista Simples
+
+List<int> numbers = new List<int>();
+
+numbers.Add(1);
+numbers.Add(2);
+numbers.Add(3);
+numbers.Add(4);
+numbers.Add(5);
 
 
+foreach(int num in numbers){
 
+Console.WriteLine(num);
+
+}
+
+
+List<string> nome = new List<string>();
+
+nome.Add("Laranja");
+nome.Add("Suco");
+nome.Add("Banana");
+nome.Add("Celular");
+nome.Add("Barril");
+
+foreach(string n in nome){
+
+Console.WriteLine(n);
+
+}
+
+
+#endregion
