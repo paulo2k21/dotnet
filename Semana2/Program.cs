@@ -24,38 +24,56 @@ ao (n-2)-ésimo elemento (ex: 8 = 5 + 3)
 
 Console.WriteLine("\n*******Atividade 1*********"); 
 
-  for (int i = 1; i < 4; i++)
+  for (int i = 1; i < 30; i++)
     {
 
-        if (4 % i == 0)
+        if (4 % i == 0 || 3 %  i == 0 )
         {
 
             Console.WriteLine(i); 
         }
     }
-   
-   Console.WriteLine(4); 
+
 
 
    Console.WriteLine("\n*******Atividade 2*********"); 
 
-    int a = 1;
-    int b = 1;
-    int c = 1;
+   int limite = 100;
 
-    Console.WriteLine(c + "-" ); 
+        int a = 0, b = 1, c = 0;
 
-    for (int i = 1; i <= 100; i++)
-    {
+        Console.WriteLine("Os primeiros números da série de Fibonacci até passar de 100 são:");
 
-        Console.WriteLine(c + "-" ); 
-        c = a + b;
-        a = b;
-        b = c;
-    }
+        for (int i = 1; i <= limite; i++)
+        {
+            Console.Write(c + "-");
+
+            c = a + b;
+            a = b;
+            b = c;
+        }
+
+        Console.WriteLine();
+
+Console.WriteLine("\n*******Atividade 3*********"); 
 
 
 #endregion
+
+
+
+Console.WriteLine("\n*******Exercicio parte II da aula*********"); 
+#region 
+
+
+
+Console.WriteLine("\nDigite seu nome"); 
+String name = Console.ReadLine();
+
+
+
+#endregion
+
 
 
 
