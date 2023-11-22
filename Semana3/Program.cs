@@ -14,7 +14,7 @@ Console.WriteLine($"Tuple 3: {tuple3.id}, {tuple3.nome}, {tuple3.born}");
 #region LambdaExpression
 
 Func<int, int, int> sum = (x, y) => x + y;
-Console.WriteLine($"sum: {sum(10, 20)}");
+Console.WriteLine($"Racionais: {sum(10, 20)}");
 
 
 Action<string> greet = name =>
@@ -30,8 +30,14 @@ Func<string, int, string> isBiggerThan = (string s, int x) => s.Length > x ? "Ye
 var size = 5;
 Console.WriteLine($"The text {person} has more than {size} chars? {isBiggerThan(person, size)}");
 
-string[] people = { "Linq", "Nilon", "Favelado" };
-char letter = 'N';
+string[] people = { "Linq", "Mano", "Favelado" };
+char letter = 'P';
 Console.WriteLine($"People with name started with '{letter}': {string.Join(", ", people.Where(x => x.StartsWith(letter)))}");
+
+#endregion
+
+#region 
+
+Console.WriteLine("Fechou!");
 
 #endregion
