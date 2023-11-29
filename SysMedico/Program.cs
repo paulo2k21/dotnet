@@ -6,40 +6,56 @@ class Program
 {
     static void Main()
     {
-        // Exemplo de utilização
+      
         ClinicaMedica clinica = new ClinicaMedica();
 
-        // Criação de alguns médicos
-        clinica.AdicionarMedico(new Medico("Dr. João", new DateTime(1980, 1, 1), "12345678901", "CRM12345"));
-        clinica.AdicionarMedico(new Medico("Dra. Maria", new DateTime(1975, 5, 10), "98765432101", "CRM54321"));
+      
+        clinica.AdicionarMedico(new Medico("Dr. Paulo", new DateTime(1980, 1, 1), "12345678901", "CRM12345"));
 
-        // Criação de alguns pacientes
+
+        clinica.AdicionarMedico(new Medico("Dra. Livia", new DateTime(1975, 5, 10), "98765432101", "CRM54321"));
+
+
+      
         clinica.AdicionarPaciente(new Paciente("Paciente1", new DateTime(1990, 3, 15), "11122233344", Sexo.Masculino, "Febre, Dor de cabeça"));
+
         clinica.AdicionarPaciente(new Paciente("Paciente2", new DateTime(1985, 8, 20), "55566677788", Sexo.Feminino, "Dor nas costas"));
         
-        // Relatórios
+    
         Console.WriteLine("Médicos com idade entre 40 e 50 anos:");
+
         var relatorioMedicosIdade = clinica.ObterMedicosPorIdade(40, 50);
+
         ExibirMedicos(relatorioMedicosIdade);
 
         Console.WriteLine("\nPacientes com idade entre 30 e 40 anos:");
+
         var relatorioPacientesIdade = clinica.ObterPacientesPorIdade(30, 40);
+
         ExibirPacientes(relatorioPacientesIdade);
 
         Console.WriteLine("\nPacientes do sexo masculino:");
+
         var relatorioPacientesSexo = clinica.ObterPacientesPorSexo(Sexo.Masculino);
+
         ExibirPacientes(relatorioPacientesSexo);
 
         Console.WriteLine("\nPacientes em ordem alfabética:");
+
         var relatorioPacientesOrdemAlfabetica = clinica.ObterPacientesOrdemAlfabetica();
+
         ExibirPacientes(relatorioPacientesOrdemAlfabetica);
 
         Console.WriteLine("\nPacientes com sintomas contendo 'Dor':");
+
         var relatorioPacientesSintomas = clinica.ObterPacientesPorSintomas("Dor");
+
         ExibirPacientes(relatorioPacientesSintomas);
 
         Console.WriteLine("\nAniversariantes do mês 5 (maio):");
+
         var relatorioAniversariantes = clinica.ObterAniversariantesDoMes(5);
+        
         ExibirMedicosEClientes(relatorioAniversariantes);
     }
 
