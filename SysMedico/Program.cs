@@ -184,14 +184,14 @@ class Program
         ClinicaMedica clinica = new ClinicaMedica();
 
        
-        clinica.AdicionarMedico(new Medico("Dr. João", new DateTime(1980, 1, 1), "12345678901", "CRM85965"));
+        clinica.AdicionarMedico(new Medico("Dr. João Bichão", new DateTime(1980, 1, 1), "12345678901", "CRM85965"));
 
-        clinica.AdicionarMedico(new Medico("Dra. Maria", new DateTime(1975, 5, 10), "98765432101", "CRM54321"));
+        clinica.AdicionarMedico(new Medico("Dra. Maria Braow", new DateTime(1975, 5, 10), "98765432101", "CRM54321"));
 
         
-        clinica.AdicionarPaciente(new Paciente("Paciente1", new DateTime(1990, 3, 15), "11122233344", Sexo.Masculino, "Febre, Dor de cabeça"));
+        clinica.AdicionarPaciente(new Paciente("Paciente: Mano 1", new DateTime(1990, 3, 15), "11122233344", Sexo.Masculino, "Febre, Dor de cabeça"));
 
-        clinica.AdicionarPaciente(new Paciente("Paciente2", new DateTime(1985, 8, 20), "55566677788", Sexo.Feminino, "Dor nas costas"));
+        clinica.AdicionarPaciente(new Paciente("Paciente: Mana2", new DateTime(1985, 8, 20), "55566677788", Sexo.Feminino, "Dor nas costas"));
         
      
         Console.WriteLine("Relatório de Médicos com idade entre 30 e 50 anos:");
