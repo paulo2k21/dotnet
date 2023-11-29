@@ -188,12 +188,19 @@ class Program
 
         clinica.AdicionarMedico(new Medico("Dra. Maria Braow", new DateTime(1975, 5, 10), "98765432101", "CRM54321"));
 
+         clinica.AdicionarMedico(new Medico("Dra. Lula", new DateTime(1975, 5, 10), "98765432101", "CRM54391"));
+          clinica.AdicionarMedico(new Medico("Dra. Ivete", new DateTime(1975, 5, 9), "98765403101", "CRM58321"));
+
         
         clinica.AdicionarPaciente(new Paciente("Paciente: Mano 1", new DateTime(1990, 3, 15), "11122233344", Sexo.Masculino, "Febre, Dor de cabeça"));
 
         clinica.AdicionarPaciente(new Paciente("Paciente: Mana2", new DateTime(1985, 8, 20), "55566677788", Sexo.Feminino, "Dor nas costas"));
         
-     
+     clinica.AdicionarPaciente(new Paciente("Paciente: Mana Bolsonaro", new DateTime(1985, 6, 6), "55545677788", Sexo.Feminino, "Dor de Barriga"));
+
+     clinica.AdicionarPaciente(new Paciente("Paciente: Mana Michele ", new DateTime(1985, 8, 20), "55566977788", Sexo.Feminino, "Dente"));
+
+
         Console.WriteLine("Relatório de Médicos com idade entre 30 e 50 anos:");
 
         var relatorioMedicosIdade = clinica.ObterMedicosPorIdade(30, 50);
