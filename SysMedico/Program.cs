@@ -184,7 +184,7 @@ class Program
         ClinicaMedica clinica = new ClinicaMedica();
 
        
-        clinica.AdicionarMedico(new Medico("Dr. João", new DateTime(1980, 1, 1), "12345678901", "CRM12345"));
+        clinica.AdicionarMedico(new Medico("Dr. João", new DateTime(1980, 1, 1), "12345678901", "CRM85965"));
 
         clinica.AdicionarMedico(new Medico("Dra. Maria", new DateTime(1975, 5, 10), "98765432101", "CRM54321"));
 
