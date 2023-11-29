@@ -26,19 +26,26 @@ class Program
 
         var relatorioMedicosIdade = clinica.ObterMedicosPorIdade(40, 50);
 
+
         ExibirMedicos(relatorioMedicosIdade);
+
 
         Console.WriteLine("\nPacientes com idade entre 30 e 40 anos:");
 
+
         var relatorioPacientesIdade = clinica.ObterPacientesPorIdade(30, 40);
 
+
         ExibirPacientes(relatorioPacientesIdade);
+
 
         Console.WriteLine("\nPacientes do sexo masculino:");
 
         var relatorioPacientesSexo = clinica.ObterPacientesPorSexo(Sexo.Masculino);
 
+
         ExibirPacientes(relatorioPacientesSexo);
+
 
         Console.WriteLine("\nPacientes em ordem alfabética:");
 
@@ -55,7 +62,7 @@ class Program
         Console.WriteLine("\nAniversariantes do mês 5 (maio):");
 
         var relatorioAniversariantes = clinica.ObterAniversariantesDoMes(5);
-        
+
         ExibirMedicosEClientes(relatorioAniversariantes);
     }
 
@@ -100,7 +107,9 @@ public enum Sexo
 public class Pessoa
 {
     public string Nome { get; set; }
+
     public DateTime DataNascimento { get; set; }
+    
     public string CPF { get; set; }
 
     public int Idade
